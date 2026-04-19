@@ -21,6 +21,8 @@ app.use(cors({
     'http://localhost:5000',
     'https://demo-blogs-1.onrender.com',
     'https://main-website-xsr0.onrender.com',
+    'https://live.healthcaredestination.com',
+    'https://healthcaredestination.com',
     'http://localhost:5173',
     'http://localhost:5174',
     'http://localhost:3000'
