@@ -8,7 +8,7 @@ const blogRoutes = require('./routes/blogRoutes');
 const doctorRoutes = require('./routes/doctorRoutes');
 const uploadRoutes = require('./routes/uploadRoutes');
 const leadRoutes = require("./routes/lead.routes");
-dotenv.config({ path: path.join(__dirname, '.env') });
+dotenv.config({ path: path.join(__dirname, '..', '.env') });
 
 const app = express();
 
