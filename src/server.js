@@ -14,7 +14,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use("/api/leads", leadRoutes);
+app.use("/api/leads", cors(), leadRoutes);
 
 app.use(cors({
   origin: [
